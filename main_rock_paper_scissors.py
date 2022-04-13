@@ -24,11 +24,11 @@ while keep_playing:
     time.sleep(2)
 
     if decision == 9:
+        print("Thanks for playing!")
         break
 
     else:    
         comp_choice = random.randint(0,2)
-        print(f"testing after isdecimal {decision}")
         print(f"You choose: \n{signs[decision]}")
         print(f"Computer Choose:\n{signs[comp_choice]}")
         time.sleep(1)
